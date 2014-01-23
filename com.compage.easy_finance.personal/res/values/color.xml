@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="font_color_yellow">#fbf106</color>
+    <color name="font_color_green">#8df700</color>
+    <color name="font_color_orange">#ff900d</color>
+    <color name="font_color_gris">#333333</color>
+    <color name="font_color_gris_claro">#EBEBEB</color>
+    <color name="font_color_gris_ccc">#CCCCCC</color>
+    <color name="font_color_gris_666">#999</color>
+    
+    
+    
+    
+</resources>

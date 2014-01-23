@@ -1,0 +1,130 @@
+<resources>
+
+    <!-- APP STRINGS -->
+    <string name="app_name">Easy Finance Personal</string>
+    <string name="menu_settings">Konfigurimet</string>
+    <string name="app_string_create">Krijo</string>
+	<string name="app_select_item">Zgjidh një artikull fillimisht</string>
+    <string name="app_saved">E ruajtur</string>
+    <string name="app_done">Përfundoi</string>
+    <string name="app_is_null">është e zbrazët</string>
+    <string name="app_changing_amount">Duke ndryshuar llogarinë</string>
+    <string name="app_amount_changed">Sasia u ndryshua</string>
+    <string name="app_amount_cannot_be_null">Sasia nuk guxon të jetë e zbrazët</string>
+    <string name="app_changing_date">Duke ndryshuar datën</string>
+    <string name="app_date_changed">Data u ndryshua</string>
+    
+    <!-- LOGIN -->
+    <string name="login_not_valid_user">Na vjen keq, kredencialet e përdoruesit nuk janë valide. Provoni përsëri.</string>
+    
+    <!-- Budgets -->
+    <string name="budgets_add_budget">Shto Buxhet</string>
+    <string name="budgets_empty_budget">Pastro buxhetin</string>
+    <string name="budgets_select_regularity">Zgjidh në mënyrë të rregullt</string>
+    <string name="budgets_The_transaction_could_not_be_maded">Transaksioni nuk mund të kryhet</string>
+    <string name="budgets_editing_budget">Duke ndryshuar buxhetin</string>
+   
+    <!-- ACTIVITIES -->
+    <string name="title_activity_splash">Financa të Lehta</string>
+    <string name="title_activity_dashboard">Tabela</string>    
+    <string name="title_activity_accounts">Llogaritë</string>
+    <string name="title_activity_categories">Kategoritë</string>
+    <string name="title_activity_settings">Konfigurimet</string>
+    <string name="title_activity_budget">Buxhetet</string>
+    <string name="title_activity_reports">Raportet</string>
+    <string name="title_activity_history">Regjistrim</string>
+    <string name="title_activity_transactions">Transaksionet</string>
+    
+    <!-- CATEGORIAS CONTABLES -->
+    <string name="accountant_category_budget">Buxheti</string>
+    <string name="accountant_category_incomes">Të hyrat</string>
+	<string name="accountant_category_expenses">Shpenzimet</string>
+    <string name="accountant_category_bills">Faturat</string>
+     
+    <!-- INCOMES TYPES -->
+	<string name="income_type_salary">Paga</string>
+    <string name="income_type_work">Punët</string>
+    
+    <!-- ACCOUNT TYPES -->
+    <string name="account_type_cash">Kesh</string>
+    <string name="account_type_card">Kartelë</string>
+     
+     <!-- DASHBOARD -->
+    <string name="subtitle_balance">Balanci</string>
+    <string name="subtitle_Available">Në dispozicion</string>
+    <string name="account_create_account">Krijo Llogari</string>
+    
+    <string name="account_create_account_name_null">Emri i Llogarisë nuk duhet të jetë i zbrazët</string>
+    <string name="account_initial_value_null">Vlera e inicuar nuk duhet të jetë e zbrazët</string>
+    <string name="create_category">Krijo Kategori</string>
+    <string name="category_name">Emri i Kategorisë</string>
+
+    <!-- ACCOUNTS -->
+    <string name="account_initial_value">Vlera e Inicuar</string>
+    <string name="account_account_name">Emri i LLogarisë</string>
+    <string name="account_add_account">Shto Llogari</string>
+    <string name="account_edit_account">Modifiko Llogari</string>
+    <string name="account_empty_fields">Disa fusha janë të zbrazëta</string>
+    <string name="account_aditional_info">Informacione Shtesë</string>
+    
+    <!-- CATEGORIES -->
+	<string name="category_bank">Bankë</string>
+	<string name="category_bus">Autobus</string>
+	<string name="category_car">Makinë</string>	
+	<string name="category_church">Kishë</string>
+	<string name="category_cloth">Rroba</string>
+	<string name="category_drink">Pije</string>	
+	<string name="category_food">Ushqim</string>
+	<string name="category_friends">Shokë</string>
+	<string name="category_games">Lojëra</string>	
+	<string name="category_gifts">Dhurata</string>
+	<string name="category_groceries">Gjella</string>
+	<string name="category_home">Shtëpi</string>	
+	<string name="category_medicine">Mjekësi</string>
+	<string name="category_relationships">Marëdhëniet </string>
+	<string name="category_reparations">Shpërblime </string>
+	<string name="category_sports">Sporte</string>
+	<string name="category_studies">Studime</string>
+	<string name="category_trips">Shëtitje</string>
+	
+	 <!-- BILLS -->
+	<string name="bills_assurance">Sigurim </string>
+	<string name="bills_smartphone">Smartfonë</string>	
+	<string name="bills_garbage">Mbeturina</string>
+	<string name="bills_internet">Internet</string>
+	<string name="bills_electricity">Elektricitet</string>
+	<string name="bills_phone">Telefon</string>
+	<string name="bills_cable">Kabëll</string>
+	<string name="bills_water">Ujë</string>
+	
+	<!-- MONTHS -->
+	<string name="month_january">Janar</string>
+	<string name="month_february">Shkurt</string>
+	<string name="month_march">Mars</string>	
+	<string name="month_april">Prill</string>
+	<string name="month_may">Maj</string>
+	<string name="month_june">Qershor</string>	
+	<string name="month_july">Korrik</string>
+	<string name="month_august">Gusht</string>
+	<string name="month_september">Shtator</string>	
+	<string name="month_october">Tetor</string>
+	<string name="month_november">Nëntor</string>
+	<string name="month_december">Dhjetor</string>
+	
+	<string name="choose_category">Zgjidh Kategorinë</string>
+	<string name="change_amount">Ndrysho Sasinë</string>
+	<string name="change_date">Ndrysho Datën</string>	
+	<string name="change_regularity">Ndrysho Rregullsinë</string>
+	    
+	<!-- REGULARITY ITEMS -->
+	<string name="regularity_never">Kurrë</string>
+	<string name="regularity_daily">Përditë</string>
+	<string name="regularity_weekly">Javore</string>	
+	<string name="regularity_biweekly">Dyjavore</string>
+	<string name="regularity_monthly">Mujore</string>
+	<string name="regularity_trimestral">Tremujore</string>	
+	<string name="regularity_quarterly">Katërmujore</string>
+	<string name="regularity_biyearly">Qdo dy vite</string>
+	<string name="regularity_yearly">Vjetore</string>
+
+</resources>

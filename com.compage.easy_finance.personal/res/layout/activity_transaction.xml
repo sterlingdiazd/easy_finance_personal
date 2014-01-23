@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_new"
+    android:orientation="vertical" >
+
+  <com.actionbar.general.ActionBar
+        android:id="@+id/actionbar"
+        style="@style/ActionBar" />
+
+    <LinearLayout
+        android:id="@+id/titleExpenses"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/ImageViewExpenses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_expenses" />
+
+            <TextView
+                android:id="@+id/textViewTitleExpenses"
+                style="@style/TitleYellow"
+                android:text="@string/accountant_category_expenses" />
+        </TableRow>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tabExpenses"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <GridView
+            android:id="@+id/gridViewTransactionCategories"
+            style="@style/GridViewStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="100"
+            android:columnWidth="100dp"
+            android:gravity="center"
+            android:horizontalSpacing="10dp"
+            android:numColumns="3"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp" >
+        </GridView>
+    </LinearLayout>
+	<!--  
+    <LinearLayout
+        android:id="@+id/titleBills"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_bills_55x55" />
+
+            <TextView
+                android:id="@+id/textViewTitleBills"
+                style="@style/TitleYellow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/accountant_category_bills" />
+        </TableRow>
+    </LinearLayout>
+	-->
+    <LinearLayout
+        android:id="@+id/tabBills"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <GridView
+            android:id="@+id/gridViewTransactionBills"
+            style="@style/GridViewStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="3" >
+        </GridView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/titleIncomes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageViewIncomes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_incomes" />
+
+            <TextView
+                android:id="@+id/textViewTitleIncomes"
+                style="@style/TitleYellow"
+                android:text="@string/accountant_category_incomes"
+                android:textStyle="bold" />
+        </TableRow>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tabIncomes"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <GridView
+            android:id="@+id/gridViewIncomes"
+            style="@style/GridViewStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="100"
+            android:columnWidth="100dp"
+            android:gravity="center"
+            android:horizontalSpacing="10dp"
+            android:numColumns="3"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp" >
+        </GridView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_ad_transactions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    </FrameLayout>
+
+</LinearLayout>
